@@ -1,9 +1,11 @@
 .nav__list {
   margin-right: 1.5em;
   display: flex;
+  color: white;
 }
 .nav__list-item {
   margin-left: 1.5em;
+  color: rgb(255, 255, 255);
 }
 
 .app .nav__hamburger {
@@ -29,11 +31,13 @@
 
   .nav__list-item {
     margin: 0.5em 0;
+    color: white;
   }
 
   .app .nav__hamburger {
     display: flex;
     z-index: 2;
     margin-left: 0.8em;
+    color: white;
   }
 }

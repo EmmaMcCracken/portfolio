@@ -1,12 +1,13 @@
 import uniqid from 'uniqid'
 import GitHubIcon from '@material-ui/icons/GitHub'
+import LaunchIcon from '@material-ui/icons/Launch'
 import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => {
   console.log(project.sourceCode, project.livePreview)
   return (
     <div className='project'>
-      <h3>{project.name}</h3>
+      <h3 className='white'>{project.name}</h3>
 
       <p className='project__description'>{project.description}</p>
       {project.stack && (
@@ -30,13 +31,12 @@ const ProjectContainer = ({ project }) => {
       )}
 
       {project.livePreview && (
-        <a href={project.livePreview}>
-          <img
-            aria-label='live preview'
-            className='link link--icon'
-            src='https://cdn-icons-png.flaticon.com/512/3388/3388930.png'
-            width='30'
-          />
+        <a
+          href={project.livePreview}
+          aria-label='live preview'
+          className='link link--icon'
+        >
+          <LaunchIcon />
         </a>
       )}
     </div>

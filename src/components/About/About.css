@@ -4,7 +4,7 @@
 }
 
 .about__name {
-  color: var(--clr-primary);
+  color: rgb(105, 42, 206);
 }
 
 .about__role {
@@ -27,6 +27,7 @@
 
 .about .btn--outline {
   margin-right: 1em;
+  background-color: rgba(191, 216, 199, 0.541);
 }
 
 @media (max-width: 600px) {
