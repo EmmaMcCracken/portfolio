@@ -6,14 +6,14 @@ const header = {
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Emma McCracken',
+  role: 'Software Engineer',
   description:
     'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'http://linkedin.com/in/emma-mccracken1',
+    github: 'https://github.com/EmmaMcCracken',
   },
 }
 
@@ -21,28 +21,26 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    name: 'Dog Breed Voting App',
+    description: 'Warning: there will be a sound when you vote! Group project.',
+    stack: ['TypeScript', 'React'],
+    sourceCode: 'https://github.com/marthabowler/dog-breed-frontend',
+    livePreview: 'https://dog-breed-c3b4.netlify.app/',
   },
   {
-    name: 'Project 2',
+    name: 'TV Shows App',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'An app where you can view episodes from a TV-Show of your choice.',
+    stack: ['TypeScript', 'React'],
+    sourceCode: 'https://github.com/EmmaMcCracken/TV-Shows-App',
+    livePreview: 'https://emmastvshows.netlify.app/',
   },
   {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    name: "Resource Catalogue (Willy Wonka's Resource Factory)",
+    description: 'A tool to add, rate, and save resources. Group project.',
+    stack: ['TypeScript', 'React'],
+    sourceCode: 'https://github.com/c3c3-academy/resource-catalogue-fe',
+    livePreview: 'https://c3c3-resource-catalogue.netlify.app/',
   },
 ]
 
@@ -54,18 +52,18 @@ const skills = [
   'JavaScript',
   'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Bootstrap',
   'Git',
   'CI/CD',
   'Jest',
-  'Enzyme',
+  'Express',
+  'node.js',
+  'PostgreSQL',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'emma.mccracken14@mail.com',
 }
 
 export { header, about, projects, skills, contact }
