@@ -10,7 +10,8 @@ const about = {
   role: 'Software Engineer',
   description:
     'Open-minded mathematician turned coder who loves learning. Looking for challenges to solve in software, whether they be in the back-end or the front-end.  ',
-  resume: 'https://example.com',
+  resume:
+    'https://drive.google.com/file/d/1GbLSVrmfFkQ7yXUaMK1Q-r3AEJ3qHMrw/view?usp=sharing',
   social: {
     linkedin: 'http://linkedin.com/in/emma-mccracken1',
     github: 'https://github.com/EmmaMcCracken',
