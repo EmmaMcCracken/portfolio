@@ -2,12 +2,19 @@ import './Footer.css'
 
 const Footer = () => (
   <footer className='footer'>
-    <a
-      href='https://github.com/rajshekhar26/cleanfolio'
-      className='link footer__link'
-    >
-      Created By Raj Shekhar
-    </a>
+    <p>
+      <span className='link footer__link'>
+        Image: Julian Alps, Slovenia, Fellwanderers Summer Tour 2016
+      </span>{' '}
+      <span className='link footer__link'>
+        <a
+          href='https://github.com/rajshekhar26/cleanfolio'
+          className='link footer__link'
+        >
+          This website was created from a template by Raj Shekhar
+        </a>
+      </span>
+    </p>
   </footer>
 )
 

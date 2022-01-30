@@ -1,6 +1,7 @@
 .about {
   flex-direction: column;
   margin-top: 3em;
+  /* background-color: rgba(68, 15, 75, 0.116); */
 }
 
 .about__name {
@@ -25,9 +26,10 @@
 }
 
 .about__desc {
-  font-size: 1rem;
-  max-width: 600px;
-  background-color: rgba(0, 0, 0, 0.116);
+  font-size: 1.5rem;
+  /* max-width: 600px; */
+  text-align: center;
+  border-radius: 2%;
 }
 
 .about__desc,

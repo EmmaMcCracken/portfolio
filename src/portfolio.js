@@ -9,7 +9,7 @@ const about = {
   name: 'Emma McCracken',
   role: 'Software Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'Open-minded mathematician turned coder who loves learning. Looking for challenges to solve in software, whether they be in the back-end or the front-end.  ',
   resume: 'https://example.com',
   social: {
     linkedin: 'http://linkedin.com/in/emma-mccracken1',
@@ -47,23 +47,26 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Bootstrap',
-  'Git',
-  'CI/CD',
-  'Jest',
+
   'Express',
   'node.js',
   'PostgreSQL',
+  'JavaScript',
+  'TypeScript',
+  'Jest',
+  'React',
+  'HTML',
+
+  'Git',
+  'CI/CD',
+  'CSS',
+
+  'Bootstrap',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'emma.mccracken14@mail.com',
+  email: 'emma.mccracken14@gmail.com',
 }
 
 export { about, projects, skills, contact }
