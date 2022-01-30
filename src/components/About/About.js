@@ -20,7 +20,7 @@ const About = () => {
 
       <div className='about__contact center'>
         {resume && (
-          <a href={resume}>
+          <a href={resume} target='_blank' rel='noreferrer noopener'>
             <span type='button' className='btn btn--outline'>
               CV
             </span>
@@ -31,6 +31,8 @@ const About = () => {
           <>
             {social.github && (
               <a
+                target='_blank'
+                rel='noreferrer noopener'
                 href={social.github}
                 aria-label='github'
                 className='link link--icon'
@@ -41,6 +43,8 @@ const About = () => {
 
             {social.linkedin && (
               <a
+                target='_blank'
+                rel='noreferrer noopener'
                 href={social.linkedin}
                 aria-label='linkedin'
                 className='link link--icon'

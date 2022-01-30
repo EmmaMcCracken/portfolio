@@ -8,6 +8,8 @@ const Footer = () => (
       </span>{' '}
       <span className='link footer__link'>
         <a
+          target='_blank'
+          rel='noreferrer noopener'
           href='https://github.com/rajshekhar26/cleanfolio'
           className='link footer__link'
         >
