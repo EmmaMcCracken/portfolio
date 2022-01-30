@@ -4,7 +4,11 @@
 }
 
 .about__name {
-  color: rgb(105, 42, 206);
+  color: rgb(0, 204, 255);
+}
+
+.about__hiiam {
+  color: rgb(255, 255, 255);
 }
 
 .about__role {

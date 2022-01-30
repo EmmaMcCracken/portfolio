@@ -1,8 +1,8 @@
-const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
-}
+// const header = {
+// all the properties are optional - can be left empty or deleted
+// homepage: 'https://rajshekhar26.github.io/cleanfolio',
+// title: 'JS.',
+// }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
@@ -66,4 +66,4 @@ const contact = {
   email: 'emma.mccracken14@mail.com',
 }
 
-export { header, about, projects, skills, contact }
+export { about, projects, skills, contact }

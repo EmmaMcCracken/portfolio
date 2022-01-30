@@ -5,7 +5,7 @@
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
   color: white;
-  background-color: rgba(8, 100, 8, 0.068);
+  background-color: rgba(7, 27, 7, 0.068);
   border: 3px solid rgba(255, 255, 255, 0.226);
   border-radius: 2%;
 }
