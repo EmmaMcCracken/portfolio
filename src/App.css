@@ -3,13 +3,13 @@
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('mountains.jpg');
-
+  background-image: url('mountains.jpg');
   background-size: 100% 80%;
   color: white;
   --clr-bg-alt: white;
 }
+
+/* to darken background use:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) */
 
 h2 {
   color: white;

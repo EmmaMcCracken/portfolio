@@ -2,10 +2,17 @@
   margin-right: 1.5em;
   display: flex;
   color: white;
+  background-color: rgba(228, 58, 228, 0.657);
+  /* background-color: rgba(128, 0, 128, 0.062); */
 }
-.nav__list-item {
+.item {
   margin-left: 1.5em;
   color: rgb(255, 255, 255);
+  font-size: 20px;
+  /* font: bold;
+  -webkit-text-fill-color: yellow;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: black; */
 }
 
 .app .nav__hamburger {

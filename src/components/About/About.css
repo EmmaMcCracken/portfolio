@@ -5,19 +5,29 @@
 
 .about__name {
   color: rgb(0, 204, 255);
+  -webkit-text-fill-color: rgb(255, 255, 255);
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .about__hiiam {
-  color: rgb(255, 255, 255);
+  -webkit-text-fill-color: rgb(255, 255, 255);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .about__role {
   margin-top: 1.2em;
+  -webkit-text-fill-color: rgb(255, 255, 255);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .about__desc {
   font-size: 1rem;
   max-width: 600px;
+  background-color: rgba(0, 0, 0, 0.116);
 }
 
 .about__desc,
