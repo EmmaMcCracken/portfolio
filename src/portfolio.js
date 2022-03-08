@@ -22,9 +22,17 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'Decision Making Helper App',
+    description:
+      'Add or remove choices, attirbuted and their associated weightings, and the app will calculate your best choice.',
+    stack: ['TypeScript', 'React', 'React Flow'],
+    sourceCode: 'https://github.com/EmmaMcCracken/decision-making-helper',
+    livePreview: 'https://help-me-choose-please.netlify.app/',
+  },
+  {
     name: 'Dog Breed Voting App',
     description: 'Warning: there will be a sound when you vote! Group project.',
-    stack: ['TypeScript', 'React'],
+    stack: ['TypeScript', 'React', 'Node.js', 'Express', 'PostgreSQL'],
     sourceCode: 'https://github.com/marthabowler/dog-breed-frontend',
     livePreview: 'https://dog-breed-c3b4.netlify.app/',
   },
@@ -39,7 +47,7 @@ const projects = [
   {
     name: "Resource Catalogue (Willy Wonka's Resource Factory)",
     description: 'A tool to add, rate, and save resources. Group project.',
-    stack: ['TypeScript', 'React'],
+    stack: ['TypeScript', 'React', 'Node.js', 'Express', 'PostgreSQL'],
     sourceCode: 'https://github.com/c3c3-academy/resource-catalogue-fe',
     livePreview: 'https://c3c3-resource-catalogue.netlify.app/',
   },
