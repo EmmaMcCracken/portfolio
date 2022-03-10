@@ -24,7 +24,7 @@ const projects = [
   {
     name: 'Decision Making Helper App',
     description:
-      'Add or remove choices, attirbutes and their associated weightings, and the app will calculate your best choice.',
+      'Add or remove choices, attributes and their associated weightings. The app will calculate your best choice.',
     stack: ['TypeScript', 'React', 'React Flow'],
     sourceCode: 'https://github.com/EmmaMcCracken/decision-making-helper',
     livePreview: 'https://help-me-choose-please.netlify.app/',
