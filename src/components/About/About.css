@@ -1,35 +1,19 @@
 .about {
   flex-direction: column;
   margin-top: 3em;
-  /* background-color: rgba(68, 15, 75, 0.116); */
 }
 
 .about__name {
-  color: rgb(0, 204, 255);
-  -webkit-text-fill-color: rgb(255, 255, 255);
-  /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-}
-
-.about__hiiam {
-  -webkit-text-fill-color: rgb(255, 255, 255);
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+  color: var(--clr-primary);
 }
 
 .about__role {
   margin-top: 1.2em;
-  -webkit-text-fill-color: rgb(255, 255, 255);
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
 }
 
 .about__desc {
-  font-size: 1.5rem;
-  /* max-width: 600px; */
-  text-align: center;
-  border-radius: 2%;
+  font-size: 1rem;
+  max-width: 600px;
 }
 
 .about__desc,
@@ -43,7 +27,6 @@
 
 .about .btn--outline {
   margin-right: 1em;
-  background-color: rgba(191, 216, 199, 0.541);
 }
 
 @media (max-width: 600px) {

@@ -1,18 +1,9 @@
 .nav__list {
   margin-right: 1.5em;
   display: flex;
-  color: white;
-  /* background-color: rgba(228, 58, 228, 0.657); */
-  /* background-color: rgba(128, 0, 128, 0.062); */
 }
-.item {
+.nav__list-item {
   margin-left: 1.5em;
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-  /* font: bold;
-  -webkit-text-fill-color: yellow;
-  -webkit-text-stroke-width: 0.2px;
-  -webkit-text-stroke-color: black; */
 }
 
 .app .nav__hamburger {
@@ -38,13 +29,11 @@
 
   .nav__list-item {
     margin: 0.5em 0;
-    color: white;
   }
 
   .app .nav__hamburger {
     display: flex;
     z-index: 2;
     margin-left: 0.8em;
-    color: white;
   }
 }
