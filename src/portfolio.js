@@ -1,8 +1,8 @@
-// const header = {
-// all the properties are optional - can be left empty or deleted
-// homepage: 'https://rajshekhar26.github.io/cleanfolio',
-// title: 'JS.',
-// }
+const header = {
+  // all the properties are optional - can be left empty or deleted
+  homepage: 'https://emma.oatley.ie',
+  title: 'EO.',
+}
 
 const about = {
   // all the properties are optional - can be left empty or deleted
@@ -56,18 +56,24 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  // 'Express',
-  // 'Node.js',
-  // 'PostgreSQL',
-  // 'JavaScript',
-  // 'TypeScript',
-  // 'Jest',
-  // 'React',
-  // 'HTML',
-  // 'Git',
-  // 'CI/CD',
-  // 'CSS',
-  // 'Bootstrap',
+  'Scala',
+  'TypeScript',
+  'JavaScript',
+
+  'Akka',
+  'Kubernetes',
+  'Express',
+  'Docker',
+
+  'PostgreSQL',
+  'MongoDB',
+
+  'Jest',
+  'React',
+  'Node.js',
+
+  'Git',
+  'CI/CD',
 ]
 
 const contact = {
@@ -75,4 +81,4 @@ const contact = {
   email: 'emma@oatley.ie',
 }
 
-export { about, projects, skills, contact }
+export { about, projects, skills, contact, header }
