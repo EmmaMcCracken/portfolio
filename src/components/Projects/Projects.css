@@ -1,7 +1,59 @@
 .projects__grid {
   max-width: 1100px;
   margin: 0 auto;
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
+  color: white;
+  background-color: rgba(7, 27, 7, 0.068);
+  border: 3px solid rgba(255, 255, 255, 0.226);
+  border-radius: 2%;
+}
+
+.project {
+  width: 25%;
+}
+table td {
+  table-layout: fixed;
+  width: 25%;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.project {
+  padding: 2em;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+  color: white;
+}
+
+.project:hover {
+  transform: translateY(-7px);
+}
+
+.project__description {
+  margin-top: 1em;
+}
+
+.project__stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1.2em 0;
+  color: white;
+}
+
+.project__stack-item {
+  margin: 0.5em;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.project .link--icon {
+  margin-left: 0.5em;
+  color: white;
 }

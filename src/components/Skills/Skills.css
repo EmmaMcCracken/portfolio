@@ -5,8 +5,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  color: green;
 }
 
 .skills__list-item {
   margin: 0.5em;
+}
+
+.section__skills {
+  color: green;
 }
