@@ -9,9 +9,9 @@ const about = {
   name: 'Emma Oatley',
   role: 'Software Engineer',
   description:
-    'Open-minded mathematician turned coder who loves learning. Looking for challenges to solve in software, whether they be in the back-end or the front-end.  ',
+    'Software engineer with a holistic mathematical and software background, prepared to relocate. Coding bootcamp graduate, experienced in building full-stack projects and maintaining back-end micro-services. Interested in effective methods to manage data and real-time events.',
   resume:
-    'https://drive.google.com/file/d/1sHunbCCLHocHF73JQnAec3wFj77nMSFk/view?usp=sharing',
+    'https://drive.google.com/file/d/1JvccBCkiV_MnArwREKn2M7JF2bjv4eSf/view?usp=sharing',
   social: {
     linkedin: 'http://linkedin.com/in/eoatley',
     github: 'https://github.com/eoatley',

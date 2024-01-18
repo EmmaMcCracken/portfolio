@@ -35,7 +35,7 @@ const ProjectContainer = ({ project }) => {
             aria-label='live preview'
             className='link link--icon'
             src='https://cdn-icons-png.flaticon.com/512/3388/3388930.png'
-            width='30'
+            width='20'
           />
         </a>
       )}
