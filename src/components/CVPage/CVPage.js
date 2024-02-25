@@ -1,17 +1,20 @@
-import pdf from './EmmaOatley.pdf'
-
 const pdfURL =
   'https://drive.google.com/file/d/1JvccBCkiV_MnArwREKn2M7JF2bjv4eSf/view?usp=sharing'
 
 const CVPage = () => (
-  <div>
+  <div id='top' className='light app' style={{ height: '100%' }}>
     {/* PDF Viewer Component */}
     {pdfURL && (
-      <object data={pdf} type='application/pdf' width='100%' height='600px'>
+      <object
+        data='/EmmaOatley.pdf'
+        type='application/pdf'
+        width='100%'
+        style={{ height: '100%' }}
+      >
         <p>
-          It appears you don`&apos;`t have a PDF plugin for this browser. No
+          It appears you don&apos;t have a PDF plugin for this browser. No
           biggie... you can{' '}
-          <a href={pdfURL}>click here to download the PDF file.</a>
+          <a href='/EmmaOatley.pdf'>click here to download the PDF file.</a>
         </p>
       </object>
     )}
