@@ -9,7 +9,7 @@ const about = {
   name: 'Emma Oatley',
   role: 'Software Engineer',
   description:
-    'Software engineer with a holistic mathematical and software background, prepared to relocate. Coding bootcamp graduate, experienced in building full-stack projects and maintaining back-end micro-services. Interested in effective methods to manage data and real-time events.',
+    'Backend engineer with a holistic mathematical and software background. Coding bootcamp graduate, experienced in building full stack projects and maintaining microservices. ',
   resume:
     'https://drive.google.com/file/d/1JvccBCkiV_MnArwREKn2M7JF2bjv4eSf/view?usp=sharing',
   social: {
@@ -21,6 +21,21 @@ const about = {
 const projects = [
   // projects can be added and removed
   // if there are no projects, Projects section won't show up
+  {
+    name: 'AWS CV Cloud Challenge',
+    description:
+      'Participating in a challenge to gain understanding of the cloud.',
+    stack: [
+      'AWS Lambda',
+      'Amazon S3',
+      'Amazon CloudFront',
+      'AWS API Gateway',
+      'Python',
+      'Terraform',
+    ],
+    sourceCode: 'https://github.com/eoatley/cloud-challenge',
+    livePreview: 'https://www.emma-cv.oatley.ie/',
+  },
   {
     name: 'Decision Making Helper App',
     description:
