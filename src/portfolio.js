@@ -24,7 +24,7 @@ const projects = [
   {
     name: 'AWS CV Cloud Challenge',
     description:
-      'Participating in a challenge to gain understanding of the cloud.',
+      'Participated in a challenge to gain understanding of the cloud.',
     stack: [
       'AWS Lambda',
       'Amazon S3',
@@ -34,7 +34,7 @@ const projects = [
       'Terraform',
     ],
     sourceCode: 'https://github.com/eoatley/cloud-challenge',
-    livePreview: 'https://www.emma-cv.oatley.ie/',
+    // livePreview: 'https://www.emma-cv.oatley.ie/',
   },
   {
     name: 'Decision Making Helper App',
