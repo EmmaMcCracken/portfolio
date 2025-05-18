@@ -22,6 +22,14 @@ const projects = [
   // projects can be added and removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'WortSchatzKiste',
+    description:
+      'An application to help with German language learning. Work in progress!',
+    stack: ['Scala 3', 'Cats Effect', 'Doobie', 'http4s', 'PostgreSQL'],
+    sourceCode: 'https://github.com/eoatley/wortschatzkiste-backend',
+    // livePreview: 'https://www.emma-cv.oatley.ie/',
+  },
+  {
     name: 'AWS CV Cloud Challenge',
     description:
       'Participated in a challenge to gain understanding of the cloud.',
